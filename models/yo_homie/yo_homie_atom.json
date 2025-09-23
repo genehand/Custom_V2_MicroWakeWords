@@ -1,15 +1,15 @@
 {
   "type": "micro",
-  "wake_word": "hey sigma",
+  "wake_word": "yo homie",
   "author": "Gene Hand",
   "website": "https://github.com/JohnnyPrimus/Custom_V2_MicroWakeWords",
-  "model": "hey_sigma.tflite",
+  "model": "yo_homie.tflite",
   "trained_languages": [
     "en"
   ],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.96,
+    "probability_cutoff": 0.91,
     "sliding_window_size": 10,
     "feature_step_size": 10,
     "tensor_arena_size": 25812,
